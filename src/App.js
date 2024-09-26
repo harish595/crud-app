@@ -47,18 +47,18 @@ const App = () => {
     // {/* <FormValidate/> */}
     // {/* <AsyncFetchApi/> */}
   // </div>
-  // <BrowserRouter>
-  // <Routes>
-  //   <Route path='/' element={<Home/>}/>
-  //   <Route path='/create' element={<Create/>}/>
-  //   <Route path='/update/:id' element={<Update/>}/>
-  //   <Route path='/read/:id' element={<Read/>}/>
+  <BrowserRouter>
+  <Routes>
+    <Route path='/' element={<Home/>}/>
+    <Route path='/create' element={<Create/>}/>
+    <Route path='/update/:id' element={<Update/>}/>
+    <Route path='/read/:id' element={<Read/>}/>
 
-  // </Routes>
-  // </BrowserRouter>
-  <div>
-    <h1>Deployed</h1>
-  </div>
+  </Routes>
+  </BrowserRouter>
+  // <div>
+  //   <h1>Deployed</h1>
+  // </div>
   )
 }
 
