@@ -7,7 +7,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.mainDiv{
+  display: flex;
+}
+
+.active{
+  border-bottom: 4px solid orange;
+}
+body{
+  background-color: rgb(175, 189, 211);
+  background-image: url("https://wallpapers.com/images/featured/desktop-lsjkr6wg7ctq97qv.jpg");
+}
+form{
+  width: 400px;
+  height: 400px;
+  background: transparent;
+backdrop-filter: blur(5px);
 }
